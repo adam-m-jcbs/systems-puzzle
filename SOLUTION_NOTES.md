@@ -153,6 +153,20 @@ all items.  I could imagine the success page needing to only show the most
 recently listed items, but I like being able to see all items and to confirm
 that adding multiple items works.
 
+### Confirm success on new machine
+
+When I can, I like to confirm my results on another machine.  In this case, I
+attempted to run the code on a Fedora workstation I have.  I was perplexed to
+find this did not succeed.  I kept getting permission errors.  This is because
+my Fedora workstation uses SELinux for more security.  I learned that you can
+[append `:Z` to
+volumes](http://www.projectatomic.io/blog/2015/06/using-volumes-with-docker-can-cause-problems-with-selinux/)
+in recent Docker versions to make SELinux policies happy.  Though likely not
+necessary for this puzzle, I went ahead and did this in `docker-compose.yml`.  
+
+Once this was added, I can confirm my solution works on at least two linux
+distros (Arch and Fedora 30).
+
 # Final Comments
 
 I believe the system now achieves the basic goal of being able to take input from
