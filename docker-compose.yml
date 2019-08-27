@@ -13,7 +13,7 @@ services:
     env_file:
       - env_file
     volumes:
-      - .:/opt/services/flaskapp/src
+      - .:/opt/services/flaskapp/src:Z
     networks:
       - db_network
       - web_network
@@ -24,7 +24,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./conf.d:/etc/nginx/conf.d
+      - ./conf.d:/etc/nginx/conf.d:Z
     networks:
       - web_network
     depends_on: 
