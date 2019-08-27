@@ -1,8 +1,8 @@
 # Insight DevOps Engineering Systems Puzzle
 
 This is Adam Jacobs' solution to the Insight DevOps systems puzzle.  To keep
-things less cluttered, please see `SOLUTION_NOTES.md` for notes I took on my
-solution and to document my process.
+things less cluttered, please see [`SOLUTION_NOTES.md`](SOLUTION_NOTES.md) for
+notes I took on my solution and to document my process.
 
 ## Table of Contents
 1. [Understanding the puzzle](README.md#understanding-the-puzzle)

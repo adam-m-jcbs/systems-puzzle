@@ -4,9 +4,9 @@ This documents Adam Jacobs' exploration of the systems puzzle, approach to the
 problem, and notes on the implemented solution. 
 
 ## Table of Contents
-1. [Understanding the puzzle](README.md#understanding-the-puzzle)
-2. [Debugging](README.md#debugging)
-3. [Final Comments](README.md#final-comments)
+1. [Understanding the puzzle](SOLUTION_NOTES.md#understanding-the-puzzle)
+2. [Debugging](SOLUTION_NOTES.md#debugging)
+3. [Final Comments](SOLUTION_NOTES.md#final-comments)
 
 # Understanding the puzzle
 
